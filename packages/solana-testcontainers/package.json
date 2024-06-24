@@ -30,7 +30,7 @@
     "preset": "@workspace/jest"
   },
   "dependencies": {
-    "testcontainers": "^10.9.0"
+    "testcontainers": "^10.10.0"
   },
   "devDependencies": {
     "@solana/web3.js": "1.93.0"
