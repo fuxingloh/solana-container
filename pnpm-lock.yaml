@@ -48,8 +48,8 @@ importers:
   packages/chainfile-solana:
     devDependencies:
       '@chainfile/testcontainers':
-        specifier: ^0.8.0
-        version: 0.8.0
+        specifier: ^0.9.0
+        version: 0.9.0
 
   packages/solana-docker: {}
 
@@ -297,14 +297,14 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@chainfile/docker@0.8.0':
-    resolution: {integrity: sha512-kisNfhBygOXQPGMkV7Xw5dlv8UyrpmhJ0iRdjLl1az6N3UB9FmHThw7t7wVDOnK5rroor1grXc06r0j9tm6Uaw==}
+  '@chainfile/docker@0.9.0':
+    resolution: {integrity: sha512-WJ6HI3adZQitMTsLM+b5Ad9llEukqDpY/j/I7+JVxOaFXU2So9xNu9LTSaIVmjTRUFej+nIYiNOS1OMc3ooVmA==}
 
-  '@chainfile/schema@0.8.0':
-    resolution: {integrity: sha512-kSqgXXsVelIFi5jU7uRgDS6y24rwajCzjlz7fO/sUb7dt/WFGMVweITsmTrU1MIWT/XupTW44mgMt/bXzajH1Q==}
+  '@chainfile/schema@0.9.0':
+    resolution: {integrity: sha512-FDkQ/2T1rdHdjkalxHmESAbaLfqEM0lAJUSbKt3Rh6GGi3FS/hFkKbUl7o2p+WSHAZ7WfC6GSXTQuYR6NWkWMQ==}
 
-  '@chainfile/testcontainers@0.8.0':
-    resolution: {integrity: sha512-RaG32/8dZaabDiS0hkt2wGQZurIE6ohZaoUd4MOkA0GtmPZHjo9kNR3unmBoyC8qYan+1Yso3t2QZceq3+5jKQ==}
+  '@chainfile/testcontainers@0.9.0':
+    resolution: {integrity: sha512-S907boy8pJH0ksKZzzvv+LK/wSaxDMRunv73Xa8BR9BVKo2LqHe1ddsJFwi86DwwxcpQZ0KLKiwqvyBHesYQJw==}
 
   '@eslint-community/eslint-utils@4.4.0':
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
@@ -3015,20 +3015,20 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@chainfile/docker@0.8.0':
+  '@chainfile/docker@0.9.0':
     dependencies:
-      '@chainfile/schema': 0.8.0
+      '@chainfile/schema': 0.9.0
       js-yaml: 4.1.0
 
-  '@chainfile/schema@0.8.0':
+  '@chainfile/schema@0.9.0':
     dependencies:
       ajv: 8.16.0
       ajv-formats: 3.0.1(ajv@8.16.0)
 
-  '@chainfile/testcontainers@0.8.0':
+  '@chainfile/testcontainers@0.9.0':
     dependencies:
-      '@chainfile/docker': 0.8.0
-      '@chainfile/schema': 0.8.0
+      '@chainfile/docker': 0.9.0
+      '@chainfile/schema': 0.9.0
       testcontainers: 10.9.0
     transitivePeerDependencies:
       - encoding
