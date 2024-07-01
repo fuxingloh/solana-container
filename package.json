@@ -15,7 +15,7 @@
   },
   "prettier": "@workspace/prettier-config",
   "devDependencies": {
-    "@types/node": "^20.14.6",
+    "@types/node": "^20.14.9",
     "@workspace/eslint-config": "workspace:*",
     "@workspace/jest": "workspace:*",
     "@workspace/prettier-config": "workspace:*",
@@ -25,8 +25,8 @@
     "jest": "29.7.0",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
-    "turbo": "^2.0.4",
-    "typescript": "5.4.5"
+    "turbo": "^2.0.6",
+    "typescript": "5.5.2"
   },
   "packageManager": "pnpm@9.4.0",
   "engines": {

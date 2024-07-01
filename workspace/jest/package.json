@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@swc/core": "^1.6.3",
+    "@swc/core": "^1.6.6",
     "@swc/jest": "0.2.36",
     "wait-for-expect": "^3.0.2"
   }
