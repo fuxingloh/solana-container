@@ -60,8 +60,8 @@ importers:
         version: 10.9.0
     devDependencies:
       '@solana/web3.js':
-        specifier: 1.93.0
-        version: 1.93.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+        specifier: 1.94.0
+        version: 1.94.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
 
   workspace/eslint-config:
     devDependencies:
@@ -473,8 +473,8 @@ packages:
     resolution: {integrity: sha512-E1ImOIAD1tBZFRdjeM4/pzTiTApC0AOBGwyAMS4fwIodCWArzJ3DWdoh8cKxeFM2fElkxBh2Aqts1BPC373rHA==}
     engines: {node: '>=5.10'}
 
-  '@solana/web3.js@1.93.0':
-    resolution: {integrity: sha512-suf4VYwWxERz4tKoPpXCRHFRNst7jmcFUaD65kII+zg9urpy5PeeqgLV6G5eWGzcVzA9tZeXOju1A1Y+0ojEVw==}
+  '@solana/web3.js@1.94.0':
+    resolution: {integrity: sha512-wMiBebzu5I2fTSz623uj6VXpWFhl0d7qJKqPFK2I4IBLTNUdv+bOeA4H7OBM7Gworv7sOvB3xibRql6l61MeqA==}
 
   '@swc/core-darwin-arm64@1.6.3':
     resolution: {integrity: sha512-3r7cJf1BcE30iyF1rnOSKrEzIR+cqnyYSZvivrm62TZdXVsIjfXe1xulsKGxZgNeLY5erIu7ukvMvBvPhnQvqA==}
@@ -2332,8 +2332,8 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
-  rpc-websockets@9.0.1:
-    resolution: {integrity: sha512-JCkdc/TfJBGRfmjIFK7cmqX79nwPWUd9xCM0DAydRbdLShsW3j/GV2gmPlaFa8V1+2u4V/O47fm4ZR5+F6HyDw==}
+  rpc-websockets@9.0.2:
+    resolution: {integrity: sha512-YzggvfItxMY3Lwuax5rC18inhbjJv9Py7JXRHxTIi94JOLrqBsSsUUc5bbl5W6c11tXhdfpDPK0KzBhoGe8jjw==}
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -3298,7 +3298,7 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@solana/web3.js@1.93.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
+  '@solana/web3.js@1.94.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.24.7
       '@noble/curves': 1.4.0
@@ -3313,7 +3313,7 @@ snapshots:
       fast-stable-stringify: 1.0.0
       jayson: 4.1.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       node-fetch: 2.7.0
-      rpc-websockets: 9.0.1
+      rpc-websockets: 9.0.2
       superstruct: 1.0.4
     transitivePeerDependencies:
       - bufferutil
@@ -3407,7 +3407,7 @@ snapshots:
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.14.6
 
   '@types/docker-modem@3.0.6':
     dependencies:
@@ -3464,7 +3464,7 @@ snapshots:
 
   '@types/ws@7.4.7':
     dependencies:
-      '@types/node': 12.20.55
+      '@types/node': 20.14.6
 
   '@types/ws@8.5.10':
     dependencies:
@@ -5522,7 +5522,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rpc-websockets@9.0.1:
+  rpc-websockets@9.0.2:
     dependencies:
       '@swc/helpers': 0.5.11
       '@types/uuid': 8.3.4
